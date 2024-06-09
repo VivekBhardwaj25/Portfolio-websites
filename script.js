@@ -6,16 +6,5 @@ let typed = new Typed("#element", {
   loop: true,
 });
 
-document.querySelector(".sidebar").style.display = "none";
-document.querySelector(".nav-menu").addEventListener("click", () => {
-  if ((document.querySelector(".sidebar").style.display = "none")) {
-    document.querySelector(".sidebar").style.display = "block";
-  }
-});
 
-document.querySelector(".close").addEventListener("click", () => {
-  if ((document.querySelector(".sidebar").style.display = "block")) {
-    document.querySelector(".sidebar").style.display = "none";
-  }
-});
 
