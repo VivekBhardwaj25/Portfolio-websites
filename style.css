@@ -122,12 +122,6 @@ nav ul li a:hover {
     color: white;
 }
 
-.nav-menu {
-    visibility: hidden;
-    scale: 1.5;
-    cursor: pointer;
-}
-
 
 main hr {
     border: 0;
