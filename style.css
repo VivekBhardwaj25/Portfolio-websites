@@ -6,6 +6,16 @@
     scroll-behavior: smooth;
 }
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+    scroll-behavior: smooth;
+}
+
 body {
     background: #150f39;
     color: white;
@@ -482,7 +492,7 @@ footer {
     font-size: 17px;
 }
 
-.footer-links a:hover{
+.footer-links a:hover {
     text-decoration: underline;
 }
 
@@ -497,17 +507,15 @@ footer {
     text-decoration: none;
 }
 
-.last{
+.last {
     margin-top: 18px;
     font-size: 18px;
 }
+
 /* Responsive */
 
 @media screen and (max-width: 736px) {
-    .nav-menu {
-        visibility: visible;
-        margin-right: 600px;
-    }
+
 
     .sidebar {
         position: fixed;
@@ -527,10 +535,7 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
-    .nav-menu {
-        visibility: visible;
-        margin-right: 320px;
-    }
+
 
     .sidebar {
         position: fixed;
@@ -546,10 +551,7 @@ footer {
 }
 
 @media screen and (max-width: 667px) and (min-width:375px) {
-    .nav-menu {
-        visibility: visible;
-        margin-right: 350px;
-    }
+
 
     .sidebar {
         position: fixed;
